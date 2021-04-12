@@ -55,10 +55,25 @@
 
                     border-radius: 10px;
                 }
+
+                .imzoorat {
+                    display: flex;
+                    /* flex-direction: column; */
+                    align-items: center;
+                    justify-content: center;
+                    margin: 0;
+                    padding: 0;
+                    position: relative;
+
+                    width: 1000%;
+                    height: 60px;
+                }
             </style>
             <div class="root">
                 <div class="viewBox">
-                    <h1>HELLO</h1>
+                    <div class="imzoorat">
+                        <h1>I'm Z00RAT</h1>
+                    </div>
                 </div>
             </div>
         </div>
