@@ -2,6 +2,18 @@
     <foreignObject width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml">
             <style>
+                @font-face {
+                    all: unset;
+                    font-family: "RobotoMono-Medium";
+                    src: url('resources/font/RobotoMono-Medium.ttf') format("truetype");
+                }
+
+                @font-face {
+                    all: unset;
+                    font-family: "ShareTechMono-Regular";
+                    src: url('resources/font/ShareTechMono-Regular.ttf') format("truetype");
+                }
+
                 .root {
                     all: unset;
 
@@ -18,6 +30,8 @@
 
                     background: linear-gradient(to right, #2e3440, #4c566a);
                     background-size: 800% 400%;
+
+                    font-family: "RobotoMono-Medium";
                 }
 
                 .viewBox {
@@ -25,7 +39,7 @@
                     flex-direction: column;
                     align-items: center;
                     justify-content: center;
-                    
+
                     margin: 0;
                     padding: 0;
 
