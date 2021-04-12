@@ -5,13 +5,13 @@
                 @font-face {
                     all: unset;
                     font-family: "RobotoMono-Medium";
-                    src: url('resources/font/RobotoMono-Medium.ttf') format("truetype");
+                    src: url('https://raw.githubusercontent.com/z00rat/z00rat/master/resources/font/RobotoMono-Medium.ttf') format("truetype");
                 }
 
                 @font-face {
                     all: unset;
                     font-family: "ShareTechMono-Regular";
-                    src: url('resources/font/ShareTechMono-Regular.ttf') format("truetype");
+                    src: url('https://raw.githubusercontent.com/z00rat/z00rat/master/resources/font/ShareTechMono-Regular.ttf') format("truetype");
                 }
 
                 .root {
