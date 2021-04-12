@@ -19,9 +19,33 @@
                     background: linear-gradient(to right, #2e3440, #4c566a);
                     background-size: 800% 400%;
                 }
+
+                .viewBox {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    
+                    margin: 0;
+                    padding: 0;
+
+                    border-style: solid;
+                    border-width: 3px;
+                    border-color: #81a1c1;
+
+                    width: 786px;
+                    height: 386px;
+
+                    color: #eceff4;
+                    text-align: center;
+
+                    border-radius: 10px;
+                }
             </style>
             <div class="root">
-                <h1>HELLO</h1>
+                <div class="viewBox">
+                    <h1>HELLO</h1>
+                </div>
             </div>
         </div>
     </foreignObject>
