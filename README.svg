@@ -2,9 +2,27 @@
     <foreignObject width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml">
             <style>
-                
+                .root {
+                    all: unset;
+
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+
+                    margin: 0;
+                    padding: 0;
+
+                    width: 800px;
+                    height: 400px;
+
+                    background: linear-gradient(to right, #2e3440, #4c566a);
+                    background-size: 800% 400%;
+                }
             </style>
-            <h1>HELLO</h1>
+            <div class="root">
+                <h1>HELLO</h1>
+            </div>
         </div>
     </foreignObject>
 </svg>
