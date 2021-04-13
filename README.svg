@@ -20,7 +20,8 @@
                     --time-zoorat-gap: 1000px;
                     --zoorat-algo: ease-in-out;
                     --time-about: 2s;
-
+                    --time-welcome: 1s;
+                    --time-welcome-delay: 1s;
 
                     --shdow-imz:
                         -300px 0 0 #bf616a,
@@ -197,6 +198,8 @@
                 }
 
                 .imzoorat {
+                    font-family: "ShareTechMono-Regular";
+
                     display: flex;
                     align-items: center;
                     justify-content: center;
@@ -206,8 +209,39 @@
 
                     width: 1000%;
                     height: 60px;
+                }
 
-                    font-family: "ShareTechMono-Regular";
+                .welcome {
+                    font-size: 15px;
+                    font-style: normal;
+                    font-weight: 10;
+                    font-family: "RobotoMono-Medium";
+                    letter-spacing: 0px;
+
+                    margin: 0;
+                    padding: 0;
+
+                    position: relative;
+
+                    animation: welcome forwards;
+                    animation-delay: var(--time-welcome-delay);
+                    animation-duration: var(--time-welcome);
+                    animation-timing-function: ease-out;
+
+                    opacity: 0;
+                    bottom: 0em;
+                }
+
+                @keyframes welcome {
+                    0% {
+                        bottom: 4em;
+                        opacity: 0;
+                    }
+
+                    100% {
+                        bottom: 0em;
+                        opacity: 1;
+                    }
                 }
 
                 .imz {
@@ -319,6 +353,7 @@
                     font-size: 20px;
                     font-style: normal;
                     font-weight: 700;
+                    font-family: "RobotoMono-Medium";
                     letter-spacing: 2px;
 
                     background-color: var(--invisible);
@@ -339,9 +374,6 @@
                     /* animation-delay: var(--time-about-delay); */
                     animation-duration: var(--time-about);
                     animation-timing-function: ease;
-
-                    font-family: "RobotoMono-Medium";
-
                 }
 
                 @keyframes about {
@@ -374,6 +406,7 @@
             </style>
             <div class="root">
                 <div class="viewBox">
+                    <h2 class="welcome">ayy, sup</h2>
                     <div class="imzoorat">
                         <h1 class="imz">I'm Z</h1>
                         <h1 class="oorat">00RAT</h1>
