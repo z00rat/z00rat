@@ -15,6 +15,14 @@
                 }
 
                 :root {
+                    /* color: [NORD] https://lospec.com/palette-list/nord-theme */
+                    --color-red: #bf616a;
+                    --color-deep-black: #2e3440;
+                    --color-light-black: #4c566a;
+                    --color-blue: #81a1c1;
+                    --color-white: #eceff4;
+                    --color-yellow: #ebcb8b;
+
                     --invisible: rgba(0, 0, 0, 0);
                     --time-zoorat-duration: 2s;
                     --time-zoorat-gap: 1000px;
@@ -23,135 +31,137 @@
                     --time-welcome: 1s;
                     --time-welcome-delay: 1s;
 
-                    --shdow-imz: /* for i in {300..1}; do if (($i % 3 == 0)); then echo -$i"px 0 0 #bf616a," ;fi; done */
-                        -300px 0 0 #bf616a,
-                        -295px 0 0 #bf616a,
-                        -290px 0 0 #bf616a,
-                        -285px 0 0 #bf616a,
-                        -280px 0 0 #bf616a,
-                        -275px 0 0 #bf616a,
-                        -270px 0 0 #bf616a,
-                        -265px 0 0 #bf616a,
-                        -260px 0 0 #bf616a,
-                        -255px 0 0 #bf616a,
-                        -250px 0 0 #bf616a,
-                        -245px 0 0 #bf616a,
-                        -240px 0 0 #bf616a,
-                        -235px 0 0 #bf616a,
-                        -230px 0 0 #bf616a,
-                        -225px 0 0 #bf616a,
-                        -220px 0 0 #bf616a,
-                        -215px 0 0 #bf616a,
-                        -210px 0 0 #bf616a,
-                        -205px 0 0 #bf616a,
-                        -200px 0 0 #bf616a,
-                        -195px 0 0 #bf616a,
-                        -190px 0 0 #bf616a,
-                        -185px 0 0 #bf616a,
-                        -180px 0 0 #bf616a,
-                        -175px 0 0 #bf616a,
-                        -170px 0 0 #bf616a,
-                        -165px 0 0 #bf616a,
-                        -160px 0 0 #bf616a,
-                        -155px 0 0 #bf616a,
-                        -150px 0 0 #bf616a,
-                        -145px 0 0 #bf616a,
-                        -140px 0 0 #bf616a,
-                        -135px 0 0 #bf616a,
-                        -130px 0 0 #bf616a,
-                        -125px 0 0 #bf616a,
-                        -120px 0 0 #bf616a,
-                        -115px 0 0 #bf616a,
-                        -110px 0 0 #bf616a,
-                        -105px 0 0 #bf616a,
-                        -100px 0 0 #bf616a,
-                        -95px 0 0 #bf616a,
-                        -90px 0 0 #bf616a,
-                        -85px 0 0 #bf616a,
-                        -80px 0 0 #bf616a,
-                        -75px 0 0 #bf616a,
-                        -70px 0 0 #bf616a,
-                        -65px 0 0 #bf616a,
-                        -60px 0 0 #bf616a,
-                        -55px 0 0 #bf616a,
-                        -50px 0 0 #bf616a,
-                        -45px 0 0 #bf616a,
-                        -40px 0 0 #bf616a,
-                        -35px 0 0 #bf616a,
-                        -30px 0 0 #bf616a,
-                        -25px 0 0 #bf616a,
-                        -20px 0 0 #bf616a,
-                        -15px 0 0 #bf616a,
-                        -10px 0 0 #bf616a,
-                        -5px 0 0 #bf616a;
+                    /* for i in {300..1}; do if (($i % 3 == 0)); then echo -$i"px 0 0 var(--color-red)," ;fi; done */
+                    --shdow-imz:
+                        -300px 0 0 var(--color-red),
+                        -295px 0 0 var(--color-red),
+                        -290px 0 0 var(--color-red),
+                        -285px 0 0 var(--color-red),
+                        -280px 0 0 var(--color-red),
+                        -275px 0 0 var(--color-red),
+                        -270px 0 0 var(--color-red),
+                        -265px 0 0 var(--color-red),
+                        -260px 0 0 var(--color-red),
+                        -255px 0 0 var(--color-red),
+                        -250px 0 0 var(--color-red),
+                        -245px 0 0 var(--color-red),
+                        -240px 0 0 var(--color-red),
+                        -235px 0 0 var(--color-red),
+                        -230px 0 0 var(--color-red),
+                        -225px 0 0 var(--color-red),
+                        -220px 0 0 var(--color-red),
+                        -215px 0 0 var(--color-red),
+                        -210px 0 0 var(--color-red),
+                        -205px 0 0 var(--color-red),
+                        -200px 0 0 var(--color-red),
+                        -195px 0 0 var(--color-red),
+                        -190px 0 0 var(--color-red),
+                        -185px 0 0 var(--color-red),
+                        -180px 0 0 var(--color-red),
+                        -175px 0 0 var(--color-red),
+                        -170px 0 0 var(--color-red),
+                        -165px 0 0 var(--color-red),
+                        -160px 0 0 var(--color-red),
+                        -155px 0 0 var(--color-red),
+                        -150px 0 0 var(--color-red),
+                        -145px 0 0 var(--color-red),
+                        -140px 0 0 var(--color-red),
+                        -135px 0 0 var(--color-red),
+                        -130px 0 0 var(--color-red),
+                        -125px 0 0 var(--color-red),
+                        -120px 0 0 var(--color-red),
+                        -115px 0 0 var(--color-red),
+                        -110px 0 0 var(--color-red),
+                        -105px 0 0 var(--color-red),
+                        -100px 0 0 var(--color-red),
+                        -95px 0 0 var(--color-red),
+                        -90px 0 0 var(--color-red),
+                        -85px 0 0 var(--color-red),
+                        -80px 0 0 var(--color-red),
+                        -75px 0 0 var(--color-red),
+                        -70px 0 0 var(--color-red),
+                        -65px 0 0 var(--color-red),
+                        -60px 0 0 var(--color-red),
+                        -55px 0 0 var(--color-red),
+                        -50px 0 0 var(--color-red),
+                        -45px 0 0 var(--color-red),
+                        -40px 0 0 var(--color-red),
+                        -35px 0 0 var(--color-red),
+                        -30px 0 0 var(--color-red),
+                        -25px 0 0 var(--color-red),
+                        -20px 0 0 var(--color-red),
+                        -15px 0 0 var(--color-red),
+                        -10px 0 0 var(--color-red),
+                        -5px 0 0 var(--color-red);
 
-                    --shadow-oorat: /* for i in {300..1}; do if (($i % 3 == 0)); then echo $i"px 0 0 #bf616a," ;fi; done */
-                        300px 0 0 #bf616a,
-                        295px 0 0 #bf616a,
-                        290px 0 0 #bf616a,
-                        285px 0 0 #bf616a,
-                        280px 0 0 #bf616a,
-                        275px 0 0 #bf616a,
-                        270px 0 0 #bf616a,
-                        265px 0 0 #bf616a,
-                        260px 0 0 #bf616a,
-                        255px 0 0 #bf616a,
-                        250px 0 0 #bf616a,
-                        245px 0 0 #bf616a,
-                        240px 0 0 #bf616a,
-                        235px 0 0 #bf616a,
-                        230px 0 0 #bf616a,
-                        225px 0 0 #bf616a,
-                        220px 0 0 #bf616a,
-                        215px 0 0 #bf616a,
-                        210px 0 0 #bf616a,
-                        205px 0 0 #bf616a,
-                        200px 0 0 #bf616a,
-                        195px 0 0 #bf616a,
-                        190px 0 0 #bf616a,
-                        185px 0 0 #bf616a,
-                        180px 0 0 #bf616a,
-                        175px 0 0 #bf616a,
-                        170px 0 0 #bf616a,
-                        165px 0 0 #bf616a,
-                        160px 0 0 #bf616a,
-                        155px 0 0 #bf616a,
-                        150px 0 0 #bf616a,
-                        145px 0 0 #bf616a,
-                        140px 0 0 #bf616a,
-                        135px 0 0 #bf616a,
-                        130px 0 0 #bf616a,
-                        125px 0 0 #bf616a,
-                        120px 0 0 #bf616a,
-                        115px 0 0 #bf616a,
-                        110px 0 0 #bf616a,
-                        105px 0 0 #bf616a,
-                        100px 0 0 #bf616a,
-                        95px 0 0 #bf616a,
-                        90px 0 0 #bf616a,
-                        85px 0 0 #bf616a,
-                        80px 0 0 #bf616a,
-                        75px 0 0 #bf616a,
-                        70px 0 0 #bf616a,
-                        65px 0 0 #bf616a,
-                        60px 0 0 #bf616a,
-                        55px 0 0 #bf616a,
-                        50px 0 0 #bf616a,
-                        45px 0 0 #bf616a,
-                        40px 0 0 #bf616a,
-                        35px 0 0 #bf616a,
-                        30px 0 0 #bf616a,
-                        25px 0 0 #bf616a,
-                        20px 0 0 #bf616a,
-                        15px 0 0 #bf616a,
-                        10px 0 0 #bf616a,
-                        5px 0 0 #bf616a;
+                    /* for i in {300..1}; do if (($i % 3 == 0)); then echo $i"px 0 0 var(--color-red)," ;fi; done */
+                    --shadow-oorat:
+                        300px 0 0 var(--color-red),
+                        295px 0 0 var(--color-red),
+                        290px 0 0 var(--color-red),
+                        285px 0 0 var(--color-red),
+                        280px 0 0 var(--color-red),
+                        275px 0 0 var(--color-red),
+                        270px 0 0 var(--color-red),
+                        265px 0 0 var(--color-red),
+                        260px 0 0 var(--color-red),
+                        255px 0 0 var(--color-red),
+                        250px 0 0 var(--color-red),
+                        245px 0 0 var(--color-red),
+                        240px 0 0 var(--color-red),
+                        235px 0 0 var(--color-red),
+                        230px 0 0 var(--color-red),
+                        225px 0 0 var(--color-red),
+                        220px 0 0 var(--color-red),
+                        215px 0 0 var(--color-red),
+                        210px 0 0 var(--color-red),
+                        205px 0 0 var(--color-red),
+                        200px 0 0 var(--color-red),
+                        195px 0 0 var(--color-red),
+                        190px 0 0 var(--color-red),
+                        185px 0 0 var(--color-red),
+                        180px 0 0 var(--color-red),
+                        175px 0 0 var(--color-red),
+                        170px 0 0 var(--color-red),
+                        165px 0 0 var(--color-red),
+                        160px 0 0 var(--color-red),
+                        155px 0 0 var(--color-red),
+                        150px 0 0 var(--color-red),
+                        145px 0 0 var(--color-red),
+                        140px 0 0 var(--color-red),
+                        135px 0 0 var(--color-red),
+                        130px 0 0 var(--color-red),
+                        125px 0 0 var(--color-red),
+                        120px 0 0 var(--color-red),
+                        115px 0 0 var(--color-red),
+                        110px 0 0 var(--color-red),
+                        105px 0 0 var(--color-red),
+                        100px 0 0 var(--color-red),
+                        95px 0 0 var(--color-red),
+                        90px 0 0 var(--color-red),
+                        85px 0 0 var(--color-red),
+                        80px 0 0 var(--color-red),
+                        75px 0 0 var(--color-red),
+                        70px 0 0 var(--color-red),
+                        65px 0 0 var(--color-red),
+                        60px 0 0 var(--color-red),
+                        55px 0 0 var(--color-red),
+                        50px 0 0 var(--color-red),
+                        45px 0 0 var(--color-red),
+                        40px 0 0 var(--color-red),
+                        35px 0 0 var(--color-red),
+                        30px 0 0 var(--color-red),
+                        25px 0 0 var(--color-red),
+                        20px 0 0 var(--color-red),
+                        15px 0 0 var(--color-red),
+                        10px 0 0 var(--color-red),
+                        5px 0 0 var(--color-red);
 
                     --shadow--end:
-                        4px 3px 0 #bf616a,
-                        3px 2px 0 #bf616a,
-                        2px 1px 0 #bf616a,
-                        1px 0px 0 #bf616a;
+                        4px 3px 0 var(--color-red),
+                        3px 2px 0 var(--color-red),
+                        2px 1px 0 var(--color-red),
+                        1px 0px 0 var(--color-red);
                 }
 
                 .root {
@@ -168,7 +178,7 @@
                     width: 800px;
                     height: 400px;
 
-                    background: linear-gradient(to right, #2e3440, #4c566a);
+                    background: linear-gradient(to right, var(--color-deep-black), var(--color-light-black));
                     background-size: 800% 400%;
 
                     font-family: "RobotoMono-Medium";
@@ -185,12 +195,12 @@
 
                     border-style: solid;
                     border-width: 3px;
-                    border-color: #81a1c1;
+                    border-color: var(--color-blue);
 
                     width: 786px;
                     height: 386px;
 
-                    color: #eceff4;
+                    color: var(--color-white);
                     text-align: center;
 
                     border-radius: 10px;
@@ -270,7 +280,7 @@
                     from {
                         opacity: 1;
                         letter-spacing: 100px;
-                        color: #eceff4;
+                        color: var(--color-white);
 
                         text-shadow: var(--shdow-imz);
 
@@ -288,7 +298,7 @@
                     to {
                         opacity: 1;
                         letter-spacing: 0px;
-                        color: #eceff4;
+                        color: var(--color-white);
 
                         text-shadow: var(--shadow--end);
 
@@ -322,7 +332,7 @@
                     from {
                         opacity: 1;
                         letter-spacing: 100px;
-                        color: #eceff4;
+                        color: var(--color-white);
 
                         text-shadow: var(--shadow-oorat);
 
@@ -340,7 +350,7 @@
                     to {
                         opacity: 1;
                         letter-spacing: 0px;
-                        color: #eceff4;
+                        color: var(--color-white);
 
                         text-shadow: var(--shadow--end);
 
@@ -383,23 +393,23 @@
 
                     50% {
                         background-color: var(--invisible);
-                        color: #2e3440;
+                        color: var(--color-deep-black);
                     }
 
                     75% {
                         padding-right: 120px;
                         padding-left: 120px;
 
-                        background-color: #ebcb8b;
-                        color: #ebcb8b;
+                        background-color: var(--color-yellow);
+                        color: var(--color-yellow);
                     }
 
                     100% {
                         padding-right: 10px;
                         padding-left: 10px;
 
-                        background-color: #ebcb8b;
-                        color: #2e3440;
+                        background-color: var(--color-yellow);
+                        color: var(--color-deep-black);
                     }
                 }
             </style>
