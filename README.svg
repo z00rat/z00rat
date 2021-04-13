@@ -23,7 +23,7 @@
                     --time-welcome: 1s;
                     --time-welcome-delay: 1s;
 
-                    --shdow-imz:
+                    --shdow-imz: /* for i in {300..1}; do if (($i % 3 == 0)); then echo -$i"px 0 0 #bf616a," ;fi; done */
                         -300px 0 0 #bf616a,
                         -295px 0 0 #bf616a,
                         -290px 0 0 #bf616a,
@@ -85,7 +85,7 @@
                         -10px 0 0 #bf616a,
                         -5px 0 0 #bf616a;
 
-                    --shadow-oorat:
+                    --shadow-oorat: /* for i in {300..1}; do if (($i % 3 == 0)); then echo $i"px 0 0 #bf616a," ;fi; done */
                         300px 0 0 #bf616a,
                         295px 0 0 #bf616a,
                         290px 0 0 #bf616a,
@@ -148,11 +148,10 @@
                         5px 0 0 #bf616a;
 
                     --shadow--end:
-                        4px 3px 0 #bf616aff,
-                        3px 2px 0 #bf616aff,
-                        2px 1px 0 #bf616aff,
-                        1px 0px 0 #bf616aff;
-
+                        4px 3px 0 #bf616a,
+                        3px 2px 0 #bf616a,
+                        2px 1px 0 #bf616a,
+                        1px 0px 0 #bf616a;
                 }
 
                 .root {
@@ -412,6 +411,8 @@
                         <h1 class="oorat">00RAT</h1>
                     </div>
                     <p class="about">I love ricing and learning new stuff</p>
+                    <!-- <p class="about">welcome to my github profile<br />here you can find all my codes and contribution</p> -->
+                    <!-- <p class="about">WORKING ON: github profile readme.md</p> -->
                 </div>
             </div>
         </div>
