@@ -19,6 +19,7 @@
                     --time-zoorat-duration: 2s;
                     --time-zoorat-gap: 1000px;
                     --zoorat-algo: ease-in-out;
+                    --time-about: 2s;
 
 
                     --shdow-imz:
@@ -313,6 +314,63 @@
                         left: 0px;
                     }
                 }
+
+                .about {
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 700;
+                    letter-spacing: 2px;
+
+                    background-color: var(--invisible);
+                    color: var(--invisible);
+
+                    margin-top: 5px;
+                    margin-bottom: 0px;
+                    margin-right: 0px;
+                    margin-left: 0px;
+                    padding-top: 2px;
+                    padding-bottom: 2px;
+                    padding-right: 10px;
+                    padding-left: 10px;
+
+                    position: relative;
+
+                    animation: about forwards;
+                    /* animation-delay: var(--time-about-delay); */
+                    animation-duration: var(--time-about);
+                    animation-timing-function: ease;
+
+                    font-family: "RobotoMono-Medium";
+
+                }
+
+                @keyframes about {
+                    0% {
+                        background-color: var(--invisible);
+                        color: var(--invisible);
+                    }
+
+                    50% {
+                        background-color: var(--invisible);
+                        color: #2e3440;
+                    }
+
+                    75% {
+                        padding-right: 120px;
+                        padding-left: 120px;
+
+                        background-color: #ebcb8b;
+                        color: #ebcb8b;
+                    }
+
+                    100% {
+                        padding-right: 10px;
+                        padding-left: 10px;
+
+                        background-color: #ebcb8b;
+                        color: #2e3440;
+                    }
+                }
             </style>
             <div class="root">
                 <div class="viewBox">
@@ -320,6 +378,7 @@
                         <h1 class="imz">I'm Z</h1>
                         <h1 class="oorat">00RAT</h1>
                     </div>
+                    <p class="about">I love ricing and learning new stuff</p>
                 </div>
             </div>
         </div>
